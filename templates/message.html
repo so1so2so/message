@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+<body>
+<form method="post" action="/sendmessage/">
+    {% csrf_token %}
+手机号<input type="text" name="phone">
+    发送内容<input type="text" name="text">
+    <input type="submit" value="确认发送">
+</form>
+</form>
+</body>
+<script src="/static/bootstrap/js/jquery-2.1.4.js"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+</html>
