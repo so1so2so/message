@@ -19,5 +19,5 @@ from django.contrib import admin
 from sendmassage import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^sendmessage/', views.SendMessage),
+    url(r'^$', views.SendMessage,name='message'),
 ]

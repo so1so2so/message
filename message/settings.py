@@ -25,7 +25,7 @@ SECRET_KEY = 'gmnfq(wveyb(n!3mx*u13o5m7i9lio8$3fb&&7b$3rl4*7@$c@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.11']
 
 
 # Application definition

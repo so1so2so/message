@@ -6,9 +6,9 @@
 </head>
 <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
 <body>
-<form method="post" action="/sendmessage/">
+<form method="post" action="{% url 'message' %}">
     {% csrf_token %}
-手机号<input type="text" name="phone">
+    手机号<input type="text" name="phone">
     发送内容<input type="text" name="text">
     <input type="submit" value="确认发送">
 </form>
